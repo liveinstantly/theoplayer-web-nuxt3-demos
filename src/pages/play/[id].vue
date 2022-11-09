@@ -5,8 +5,8 @@ import Player from "@/components/Player.vue";
 
 const playerState = usePlayer();
 const { id: contentId } = useRoute().params;
-const { data, error } = await useFetch<any>(`/api/contents/${contentId}`);
-//console.log(useRoute().params);
+const { data, error } = await useFetch<any>(`/api/contents/${contentId}`, { initialCache: false });
+console.log(useRoute().params);
 
 onMounted(async () => {
   playerState.setPoster(data.value.poster);
