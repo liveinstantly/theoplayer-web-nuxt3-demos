@@ -4,4 +4,4 @@
 
 [build]
 publish = "src/dist"
-command = "yarn generate"
+command = "yarn build && yarn generate"
