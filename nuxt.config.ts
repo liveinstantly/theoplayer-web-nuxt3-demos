@@ -18,6 +18,13 @@ export default defineNuxtConfig({
       "vuetify"
     ],
   },
+  // https://v3.nuxtjs.org/guide/going-further/runtime-config
+  // This an be overridden by NUXT_PUBLIC_*
+  publicRuntimeConfig: {
+    theoplayer: {
+      license: ''
+    }
+  },
   vite: {
     define: {
       "process.env.DEBUG": false,

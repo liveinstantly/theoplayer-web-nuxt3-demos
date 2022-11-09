@@ -3,13 +3,15 @@ import { ref, onMounted } from "vue";
 
 const theoplayer = ref<HTMLElement | null>(null);
 const playerState = usePlayer();
+const config = useRuntimeConfig();
 
 function playerInit() {
   if (theoplayer.value != null) {
     // Initialize player container
     const player = new window.THEOplayer.Player(theoplayer.value, {
       fluid: true,
-      libraryLocation: "https://cdn.theoplayer.com/dash/theoplayer/",
+      libraryLocation: "https://cdn.myth.theoplayer.com/f6fe7854-1374-4637-b68e-9c43b13f739b/",
+      license: config.public.theoplayer.license
     });
     player.source = {};
     // Update sources varibales in playerState (usePlayer)

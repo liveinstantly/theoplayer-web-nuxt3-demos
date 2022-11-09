@@ -9,13 +9,13 @@ useHead({
   link: [
     {
       rel: 'stylesheet',
-      href: 'https://cdn.theoplayer.com/dash/theoplayer/ui.css'
+      href: 'https://cdn.myth.theoplayer.com/f6fe7854-1374-4637-b68e-9c43b13f739b/ui.css'
     }
   ],
   script: [
     {
       type: "text/javascript",
-      src: "https:/cdn.theoplayer.com/dash/theoplayer/THEOplayer.js",
+      src: "https://cdn.myth.theoplayer.com/f6fe7854-1374-4637-b68e-9c43b13f739b/THEOplayer.js",
       body: true,
     },
   ],
