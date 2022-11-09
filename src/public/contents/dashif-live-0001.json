@@ -1,0 +1,12 @@
+{
+    "id": "dashif-live-0001",
+    "title": "DASH-IF sample video - DASH Live Clear",
+    "description": "A simple Live MPEG-DASH stream content provided by DASH Industry Forum. This example uses SegmentTimeline for Live stream.",
+    "sources": [
+        {
+            "type": "application/dash+xml",
+            "src": "https://livesim.dashif.org/livesim/segtimeline_1/testpic_2s/Manifest.mpd"
+        }
+    ],
+    "poster": "/images/livesim.png"
+}
