@@ -1,5 +1,6 @@
 <script setup lang="ts">
 useHead({
+  title: "THEOplayer Demo (Web SDK with Nuxt3/Vue3/Veutify3) | LiveInstantly, LLC.",
   meta: [
     {
       name: 'viewport',
