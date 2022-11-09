@@ -36,12 +36,9 @@ onMounted(async () => {
           <v-card-subtitle>{{ data.id }}</v-card-subtitle>
           <v-card-text>{{ data.description }}</v-card-text>
           <v-card-text v-for="(source, index) of data.sources">
-            <v-list-item two-line class="pa-0">
-              <v-list-item-content>
-                <v-list-item-title>Source {{ index }}</v-list-item-title>
-                <v-list-item-subtitle>{{ source.src }}</v-list-item-subtitle>
-              </v-list-item-content>
-            </v-list-item>
+            <v-list lines="two" class="pa-0">
+              <v-list-item class="pa-0" :title="`Source ${index}`" :subtitle="source.src"></v-list-item>
+            </v-list>
           </v-card-text>
         </v-card>
       </v-col>
