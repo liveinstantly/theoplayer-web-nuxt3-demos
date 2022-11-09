@@ -1,0 +1,38 @@
+{
+    "groups": [
+        {
+            "name": "Basic VOD Streaming",
+            "contents": [
+                {
+                    "id": "theo-0001",
+                    "title": "VOD (HLS Clear)",
+                    "text": "HLS Clear VOD example hosted by THEO",
+                    "poster": "/images/ed_s1_proog.jpg"
+                },
+                {
+                    "id": "theo-0002",
+                    "title": "VOD (HLS Clear) Thumbnails",
+                    "text": "HLS Clear VOD and Thumbnails example hosted by THEO",
+                    "poster": "/images/bbb-splash.png"
+                },
+                {
+                    "id": "dashif-vod-0002",
+                    "title": "VOD (DASH Clear) 4K",
+                    "text": "DASH Clear VOD example hosted by Akamai (DASH-IF)",
+                    "poster": "/images/bbb-bird1.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Basic Live Streaming",
+            "contents": [
+                {
+                    "id": "dashif-live-0001",
+                    "title": "DASH Live Clear",
+                    "text": "DASH Clear Linear Live example hosted by DASH-IF",
+                    "poster": "/images/livesim.png"
+                }
+            ]
+        }
+    ]
+}

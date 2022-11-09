@@ -1,0 +1,19 @@
+{
+    "contents": [
+        {
+            "id": "theo-0001",
+            "title": "VOD (HLS Clear)",
+            "thumbnail": "/images/ed_s1_proog.jpg"
+        },
+        {
+            "id": "theo-0002",
+            "title": "VOD (HLS Clear) with Thumbnails",
+            "thumbnail": "/images/bbb-splash.png"
+        },
+        {
+            "id": "dashif-vod-0002",
+            "title": "VOD (DASH Clear) up to 4K",
+            "thumbnail": "/images/bbb-bird1.jpg"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "id": "theo-0001",
+    "title": "THEO sample video - HLS VOD Clear",
+    "description": "A simple Video Ondemand HLS streaming content provided by THEO Technologies.",
+    "sources": [
+        {
+            "type": "application/x-mpegurl",
+            "src": "https://cdn.theoplayer.com/video/elephants-dream/playlist.m3u8"
+        }
+    ],
+    "poster": "/images/ed_s1_proog.jpg"
+}

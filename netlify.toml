@@ -1,0 +1,7 @@
+#
+# netlify.toml
+#
+
+[build]
+publish = "src/dist"
+command = "yarn generate"
