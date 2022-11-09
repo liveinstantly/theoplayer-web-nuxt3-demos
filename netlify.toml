@@ -4,4 +4,6 @@
 
 [build]
 publish = "src/dist"
-command = "yarn build && yarn generate"
+command = "yarn build"
+#command = "yarn build && yarn generate"
+functions = "src/.netlify/functions-internal"
