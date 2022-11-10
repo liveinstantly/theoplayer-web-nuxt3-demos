@@ -1,5 +1,7 @@
 # THEOplayer Web Demo App with Nuxt 3
 
+[Demo App](https://theoplayer.demo.liveinstantly.cloud/)
+
 This repository introduces our THEOplayer player demo web application as a practical application integrated with THEOplayer Web SDK for your video services.
 
 THEOplayer is the universal video player solution created by THEO Technologies. The THEOplayer offers player SDKs for multiple platforms (such as HTML5 (Web), Apple iOS, Apple tvOS, Google Android, Google Android TV, Samsumg Tizen, LG webOS, Amazon FireTV, ROKU) which support for HLS, MPEG-DASH, advertisements, DRM and much more.
@@ -35,7 +37,7 @@ pnpm install --shamefully-hoist
 
 ### Development Server
 
-Start the development server on http://localhost:3000
+Start the development server on <http://localhost:3000>
 
 ```bash
 # yarn
