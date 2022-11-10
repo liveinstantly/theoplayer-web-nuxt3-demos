@@ -3,7 +3,7 @@ import { send } from "h3";
 export default defineEventHandler(async (event) => {
     const id = "theo-0001";
 
-    const blob: Blob = await $fetch(`https://theoplayer.demo.liveinstantly.cloud/contents/${id}.json`, {
+    const blob: Blob = await $fetch(`${process.env.URL}/contents/${id}.json`, {
         method: "get",
         responseType: "blob"
     });
