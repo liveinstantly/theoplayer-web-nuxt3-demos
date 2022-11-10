@@ -6,7 +6,7 @@ THEOplayer は、THEO Technologies によって開発されたユニバーサル
 
 このデモ Web アプリは Nuxt 3、Vue 3、および、Vuetify 3 フレームワークと統合されており、THEOplayer Web SDK で複数のビデオ ストリームの例を再生します。
 
-![Screenshot of THEOplayer Demo Web App](./featured-screenshot-theoplayer-demo-webapp.png)
+![Screenshot of THEOplayer Demo Web App](./docs/images/featured-screenshot-theoplayer-demo-webapp.png)
 
 このデモ Web アプリは Netlify にデプロイされます。デモ サイト [https://theoplayer.demo.liveinstantly.cloud/](https://theoplayer.demo.liveinstantly.cloud/) にアクセスして確認してみてください。
 
