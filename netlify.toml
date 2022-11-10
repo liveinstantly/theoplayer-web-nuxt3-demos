@@ -4,6 +4,10 @@
 
 [build]
 publish = "src/dist"
+
+# Build for "Server" target
 command = "yarn build"
-#command = "yarn build && yarn generate"
 functions = "src/.netlify/functions-internal"
+
+# Build for "static" target
+#command = "yarn generate"
