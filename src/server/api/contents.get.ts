@@ -8,11 +8,10 @@ export default defineEventHandler((event) => {
     try {
         const contents = JSON.parse(fs.readFileSync(json, 'utf-8'));
         return contents;
-    } catch {
+    } catch (e) {
         throw createError({
             statusCode: 404,
-            statusMessage: `The specified resource is not found: ${json}.`,
-            stack: `${JSON.stringify(process.env)}`,
+            statusMessage: `The specified resource is not found: ${json}: ${e}: ${JSON.stringify(process.env)}`,
         });
     }
 });
