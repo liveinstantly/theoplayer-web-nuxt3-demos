@@ -1,17 +1,11 @@
-import fs from "fs";
-import path from "path";
+import { send } from "h3";
 
-const contentJsonBase = path.resolve(process.cwd() + "/src/content/player/demos/contents");
+export default defineEventHandler(async (event) => {
+    const host = process.env.URL;
+    const blob: Blob = await $fetch(`${host}/contents.json`, {
+        method: "get",
+        responseType: "blob"
+    });
 
-export default defineEventHandler((event) => {
-    const json = path.resolve(contentJsonBase + ".json");
-    try {
-        const contents = JSON.parse(fs.readFileSync(json, 'utf-8'));
-        return contents;
-    } catch (e) {
-        throw createError({
-            statusCode: 404,
-            statusMessage: `The specified resource is not found: ${json}: ${e}: ${JSON.stringify(process.env)}`,
-        });
-    }
+    await send(event, Buffer.from(Buffer.from(await blob.arrayBuffer())), blob.type);
 });
