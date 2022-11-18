@@ -5,7 +5,22 @@
     "sources": [
         {
             "type": "application/x-mpegurl",
-            "src": "https://cdn.theoplayer.com/video/elephants-dream/playlist.m3u8"
+            "src": "https://cdn.theoplayer.com/video/elephants-dream/playlist.m3u8",
+            "mmVideoAssetInfo": {
+                "assetName": "ASSET_NAME",
+                "assetId": "ASSETID_STRING",
+                "videoId": "VIDEOID_STRING",
+                "contentType": "trailer",
+                "drmProtection": "None",
+                "episodeNumber": "NA",
+                "season": "NA",
+                "seriesTitle": "NA",
+                "customTags": {
+                    "key1": "VALUE_STRING1",
+                    "key2": "VALUE_STRING2",
+                    "key3": "VALUE_STRING3"
+                }
+            }
         }
     ],
     "poster": "/images/ed_s1_proog.jpg"
