@@ -15,7 +15,7 @@ function playerInit() {
     });
     var theoPlugin = new mmTheoJSAdapter();
     if (theoPlugin.getRegistrationStatus() === false) {
-      theoPlugin.registerMMSmartStreaming("liveinstantly-demo", "demo-customer", "17313401890", "demo.liveinstantly.cloud", "subscriber_type", "subscriber_tag");
+      theoPlugin.registerMMSmartStreaming("liveinstantly-demo-THEOplayer", "17313401890", "subscriber_id", "demo.liveinstantly.cloud", "subscriber_type", "subscriber_tag");
       theoPlugin.reportPlayerInfo("liveinstantly_theo_player_brand", "liveinstantly_theo_player_model", "4.3.0");
     }
     theoPlugin.initialize(player);
