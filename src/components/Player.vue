@@ -6,6 +6,8 @@ const playerState = usePlayer();
 const config = useRuntimeConfig();
 
 function playerInit() {
+  const subscriberId = "anonymous";
+  const subscriberType = "freemium";
   if (theoplayer.value != null) {
     // Initialize player container
     const player = new window.THEOplayer.Player(theoplayer.value, {
@@ -15,7 +17,7 @@ function playerInit() {
     });
     var theoPlugin = new mmTheoJSAdapter();
     if (theoPlugin.getRegistrationStatus() === false) {
-      theoPlugin.registerMMSmartStreaming("liveinstantly-demo-THEOplayer", "17313401890", "subscriber_id", "demo.liveinstantly.cloud", "subscriber_type", "subscriber_tag");
+      theoPlugin.registerMMSmartStreaming("theoplayer.demo.liveinstantly.cloud", "17313401890", subscriberId, "demo.liveinstantly.cloud", subscriberType, "subscriber_tag");
       theoPlugin.reportPlayerInfo("liveinstantly_theo_player_brand", "liveinstantly_theo_player_model", "4.3.0");
     }
     theoPlugin.initialize(player);

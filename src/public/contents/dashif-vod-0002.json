@@ -5,7 +5,23 @@
     "sources": [
         {
             "type": "application/dash+xml",
-            "src": "https://dash.akamaized.net/akamai/bbb_30fps/bbb_30fps.mpd"
+            "src": "https://dash.akamaized.net/akamai/bbb_30fps/bbb_30fps.mpd",
+            "mmVideoAssetInfo": {
+                "assetName": "DASH-IF sample video - DASH VOD Clear",
+                "assetId": "liveinstantly-demo-dashif-vod-0002",
+                "videoId": "liveinstantly-demo-dashif-vod-0002-1",
+                "contentType": "demo",
+                "drmProtection": "None",
+                "episodeNumber": "NA",
+                "season": "NA",
+                "seriesTitle": "NA",
+                "customTags": {
+                    "kind": "demo",
+                    "streaming-protocol": "MPEG-DASH",
+                    "encryption": "clear",
+                    "stream": "vod"
+                }
+            }
         }
     ],
     "poster": "/images/bbb-bird1.jpg"
