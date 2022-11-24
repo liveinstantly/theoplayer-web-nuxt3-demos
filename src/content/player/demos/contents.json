@@ -70,13 +70,13 @@
                     "id": "lcevc-0001",
                     "title": "LCEVC H.264 HLS VOD Clear",
                     "text": "LCEVC H.264 sample video - HLS VOD Clear by THEO",
-                    "poster": "/images/bbb-bunny-bow.jpg"
+                    "poster": "/images/bbb-bunny-bow.png"
                 },
                 {
                     "id": "lcevc-0002",
                     "title": "LCEVC H.264 DASH VOD Clear",
                     "text": "LCEVC H.264 sample video - DASH VOD Clear by THEO",
-                    "poster": "/images/bbb-bunny-bow.jpg"
+                    "poster": "/images/bbb-bunny-bow.png"
                 }
             ]
         }
