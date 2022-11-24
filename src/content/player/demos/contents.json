@@ -20,6 +20,12 @@
                     "title": "VOD (DASH Clear) 4K",
                     "text": "DASH Clear VOD example hosted by Akamai (DASH-IF)",
                     "poster": "/images/bbb-bird1.jpg"
+                },
+                {
+                    "id": "msams-0001",
+                    "title": "VOD (DASH Clear) 4K",
+                    "text": "DASH Clear VOD example hosted by Microsoft Azure",
+                    "poster": "/images/cl_poster.jpg"
                 }
             ]
         },
@@ -31,6 +37,17 @@
                     "title": "DASH Live Clear",
                     "text": "DASH Clear Linear Live example hosted by DASH-IF",
                     "poster": "/images/livesim.png"
+                }
+            ]
+        },
+        {
+            "name": "360/VR VOD Streaming",
+            "contents": [
+                {
+                    "id": "theo-0003",
+                    "title": "360/VR HLS VOD Clear",
+                    "text": "THEO 360/VR sample video - HLS VOD Clear by THEO",
+                    "poster": "/images/360-poster.webp"
                 }
             ]
         }
