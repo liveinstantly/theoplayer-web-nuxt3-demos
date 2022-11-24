@@ -13,6 +13,9 @@ onMounted(async () => {
   if (data.value.textTracks != undefined) {
     playerState.setTextTracks(data.value.textTracks);
   }
+  if (data.value.vr != undefined) {
+    playerState.setVR(data.value.vr);
+  }
   playerState.setSources(data.value.sources);
   // XXX: Dynamic Import only work in 3.0.0-rc8 or before
   //import(`../../content/player/demos/contents/${contentId}.json`).then(

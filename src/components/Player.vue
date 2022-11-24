@@ -28,6 +28,7 @@ function playerInit() {
       player.source = {
         sources: playerState.sources.value,
         textTracks: playerState.textTracks.value,
+        vr: playerState.vr.value,
         poster: playerState.poster.value
       }
     });
