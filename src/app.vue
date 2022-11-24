@@ -18,7 +18,7 @@ useHead({
       type: "text/javascript",
       src: "https://cdn.jsdelivr.net/npm/lcevc_dil.js@latest/dist/lcevc_dil.min.js",
       body: true,
-    }
+    },
     {
       type: "text/javascript",
       src: "https://cdn.myth.theoplayer.com/f6fe7854-1374-4637-b68e-9c43b13f739b/THEOplayer.js",
