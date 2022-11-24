@@ -1,6 +1,6 @@
 {
     "id": "msams-0001",
-    "title": "Azure Media sample video - HLS VOD Clear",
+    "title": "Azure Media 4K sample video - HLS VOD Clear",
     "description": "A simple 4K Video Ondemand HLS streaming content provided by Microsoft Azure Media.",
     "sources": [
         {

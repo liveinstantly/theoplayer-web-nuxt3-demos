@@ -5,26 +5,38 @@
             "contents": [
                 {
                     "id": "theo-0001",
-                    "title": "VOD (HLS Clear)",
-                    "text": "HLS Clear VOD example hosted by THEO",
+                    "title": "Simple VOD (HLS Clear)",
+                    "text": "720p HLS Clear VOD example hosted by THEO",
                     "poster": "/images/ed_s1_proog.jpg"
                 },
                 {
                     "id": "theo-0002",
-                    "title": "VOD (HLS Clear) Thumbnails",
-                    "text": "HLS Clear VOD and Thumbnails example hosted by THEO",
+                    "title": "VOD w/ Thumbnails (HLS Clear)",
+                    "text": "HLS Clear VOD wirh Thumbnails example hosted by THEO",
                     "poster": "/images/bbb-splash.png"
                 },
                 {
                     "id": "dashif-vod-0002",
-                    "title": "VOD (DASH Clear) 4K",
+                    "title": "4K VOD (DASH Clear)",
                     "text": "DASH Clear VOD example hosted by Akamai (DASH-IF)",
                     "poster": "/images/bbb-bird1.jpg"
                 },
                 {
                     "id": "msams-0001",
-                    "title": "VOD (DASH Clear) 4K",
-                    "text": "DASH Clear VOD example hosted by Microsoft Azure",
+                    "title": "4K VOD (HLS Clear)",
+                    "text": "HLS Clear VOD example hosted by Microsoft Azure",
+                    "poster": "/images/cl_poster.jpg"
+                },
+                {
+                    "id": "msams-0002",
+                    "title": "4K VOD (HLS/CMAF Clear)",
+                    "text": "HLS/CMAF Clear VOD example hosted by Microsoft Azure",
+                    "poster": "/images/cl_poster.jpg"
+                },
+                {
+                    "id": "msams-0003",
+                    "title": "4K VOD (DASH/CMAF Clear)",
+                    "text": "DASH/CMAF Clear VOD example hosted by Microsoft Azure",
                     "poster": "/images/cl_poster.jpg"
                 }
             ]
