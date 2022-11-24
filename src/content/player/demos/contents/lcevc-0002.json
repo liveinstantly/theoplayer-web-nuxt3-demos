@@ -1,0 +1,29 @@
+{
+    "id": "lcevc-0002",
+    "title": "LCEVC H.264 sample video - DASH VOD Clear",
+    "description": "A LCEVC enhanced Video Ondemand DASH streaming content provided by THEO",
+    "sources": [
+        {
+            "type": "application/dash+xml",
+            "src": "https://d3mfda3gpj3dw1.cloudfront.net/vnU7dmJoRQgbO0gr/master.mpd",
+            "mmVideoAssetInfo": {
+                "assetName": "LCEVC H.264 sample video - DASH VOD Clear",
+                "assetId": "liveinstantly-demo-lcevc-0002",
+                "videoId": "liveinstantly-demo-lcevc-0002-1",
+                "contentType": "demo",
+                "drmProtection": "None",
+                "episodeNumber": "NA",
+                "season": "NA",
+                "seriesTitle": "NA",
+                "customTags": {
+                    "kind": "demo",
+                    "streaming-protocol": "MPEG-DASH",
+                    "encryption": "clear",
+                    "stream": "vod",
+                    "enhancement": "LCEVC"
+                }
+            }
+        }
+    ],
+    "poster": "/images/bbb-bunny-bow.jpg"
+}
