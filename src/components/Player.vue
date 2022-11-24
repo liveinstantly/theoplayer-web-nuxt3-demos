@@ -15,6 +15,7 @@ function playerInit() {
       libraryLocation: "https://cdn.myth.theoplayer.com/f6fe7854-1374-4637-b68e-9c43b13f739b/",
       license: config.public.theoplayer.license
     });
+    // @ts-ignore
     var theoPlugin = new mmTheoJSAdapter();
     if (theoPlugin.getRegistrationStatus() === false) {
       theoPlugin.registerMMSmartStreaming("theoplayer.demo.liveinstantly.cloud", "17313401890", subscriberId, "demo.liveinstantly.cloud", subscriberType, "subscriber_tag");
