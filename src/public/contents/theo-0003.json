@@ -1,7 +1,7 @@
 {
     "id": "theo-0003",
     "title": "THEO 360/VR sample video - HLS VOD Clear",
-    "description": "A simple 360/VR Video Ondemand HLS streaming content provided by THEO Technologies. Original Video source: National Geographics | 360° Great Hammerhead Shark Encounter | https://youtu.be/rG4jSz_2HDY",
+    "description": "A simple 360/VR Video Ondemand HLS streaming content provided by THEO Technologies. You can drag to scroll 360 view in the player pane. Original Video source: National Geographics | 360° Great Hammerhead Shark Encounter | https://youtu.be/rG4jSz_2HDY",
     "sources": [
         {
             "type": "application/x-mpegurl",

@@ -1,7 +1,7 @@
 {
     "id": "lcevc-0002",
     "title": "LCEVC H.264 sample video - DASH VOD Clear",
-    "description": "A LCEVC enhanced Video Ondemand DASH streaming content provided by THEO",
+    "description": "A LCEVC enhanced Video Ondemand DASH streaming content provided by THEO. You will see LCEVC logo if you have successfully played with LCEVC contents in the player, because the logo data is included in the LCEVC additional data bitstream.",
     "sources": [
         {
             "type": "application/dash+xml",
