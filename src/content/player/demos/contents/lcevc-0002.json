@@ -6,6 +6,7 @@
         {
             "type": "application/dash+xml",
             "src": "https://d3mfda3gpj3dw1.cloudfront.net/vnU7dmJoRQgbO0gr/master.mpd",
+            "lcevc": true,
             "mmVideoAssetInfo": {
                 "assetName": "LCEVC H.264 sample video - DASH VOD Clear",
                 "assetId": "liveinstantly-demo-lcevc-0002",
