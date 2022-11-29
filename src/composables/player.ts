@@ -1,5 +1,5 @@
 import type { Ref } from "vue";
-import { Sources, TextTrackDescription, VR, VRConfiguration } from "theoplayer";
+import { Sources, TextTrackDescription, VRConfiguration } from "theoplayer";
 
 export const usePlayer = () => {
     const sources: Ref<Sources> = useState('sources', () => ([]));
