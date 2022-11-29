@@ -20,9 +20,11 @@ export default defineNuxtConfig({
   },
   // https://v3.nuxtjs.org/guide/going-further/runtime-config
   // This an be overridden by NUXT_PUBLIC_*
-  publicRuntimeConfig: {
-    theoplayer: {
-      license: ''
+  runtimeConfig: {
+    public: {
+      theoplayer: {
+        license: ''
+      }
     }
   },
   vite: {
