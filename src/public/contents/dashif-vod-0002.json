@@ -2,30 +2,32 @@
     "id": "dashif-vod-0002",
     "title": "DASH-IF sample video - DASH VOD Clear",
     "description": "A MPEG-DASH VOD stream content provided by DASH Industry Forum. This example is: SegmentTemplate/Number, live profile, 250kbps up to 15Mbps@4K.",
-    "sources": [
-        {
-            "type": "application/dash+xml",
-            "src": "https://dash.akamaized.net/akamai/bbb_30fps/bbb_30fps.mpd",
-            "mmVideoAssetInfo": {
-                "assetName": "DASH-IF sample video - DASH VOD Clear",
-                "assetId": "liveinstantly-demo-dashif-vod-0002",
-                "videoId": "liveinstantly-demo-dashif-vod-0002-1",
-                "contentType": "demo",
-                "drmProtection": "None",
-                "episodeNumber": "NA",
-                "season": "NA",
-                "seriesTitle": "NA",
-                "customTags": {
-                    "kind": "demo",
-                    "streaming-protocol": "MPEG-DASH",
-                    "encryption": "clear",
-                    "stream": "vod"
+    "playerSource": {
+        "sources": [
+            {
+                "type": "application/dash+xml",
+                "src": "https://dash.akamaized.net/akamai/bbb_30fps/bbb_30fps.mpd",
+                "mmVideoAssetInfo": {
+                    "assetName": "DASH-IF sample video - DASH VOD Clear",
+                    "assetId": "liveinstantly-demo-dashif-vod-0002",
+                    "videoId": "liveinstantly-demo-dashif-vod-0002-1",
+                    "contentType": "demo",
+                    "drmProtection": "None",
+                    "episodeNumber": "NA",
+                    "season": "NA",
+                    "seriesTitle": "NA",
+                    "customTags": {
+                        "kind": "demo",
+                        "streaming-protocol": "MPEG-DASH",
+                        "encryption": "clear",
+                        "stream": "vod"
+                    }
                 }
             }
-        }
-    ],
-    "vr": {
-        "360": false
-    },
-    "poster": "/images/bbb-bird1.jpg"
+        ],
+        "vr": {
+            "360": false
+        },
+        "poster": "/images/bbb-bird1.jpg"
+    }
 }

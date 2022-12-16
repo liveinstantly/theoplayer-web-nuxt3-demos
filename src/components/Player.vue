@@ -25,13 +25,8 @@ function playerInit() {
 
     player.source = {};
     // Update sources varibales in playerState (usePlayer)
-    watch(playerState.sources, () => {
-      player.source = {
-        sources: playerState.sources.value,
-        textTracks: playerState.textTracks.value,
-        vr: playerState.vr.value,
-        poster: playerState.poster.value
-      }
+    watch(playerState.playerSource, () => {
+      player.source = playerState.playerSource.value;
     });
 
   }

@@ -18,14 +18,9 @@ const { data: asset } = await useAsyncData("asset", async () => {
 });
 
 onMounted(async () => {
-  playerState.setPoster(asset.value.poster);
-  if (asset.value.textTracks != undefined) {
-    playerState.setTextTracks(asset.value.textTracks);
+  if (asset.value != null) {
+    playerState.setPlayerSource(asset.value.playerSource);
   }
-  if (asset.value.vr != undefined) {
-    playerState.setVR(asset.value.vr);
-  }
-  playerState.setSources(asset.value.sources);
 });
 </script>
 

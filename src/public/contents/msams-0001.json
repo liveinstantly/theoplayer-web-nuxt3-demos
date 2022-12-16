@@ -27,5 +27,7 @@
     "vr": {
         "360": false
     },
-    "poster": "/images/cl_poster.jpg"
+    "poster": "/images/cl_poster.jpg",
+    "playerSource": {
+    }
 }
