@@ -26,5 +26,8 @@
             }
         }
     ],
+    "vr": {
+        "360": false
+    },
     "poster": "/images/bbb-bunny-bow.png"
 }

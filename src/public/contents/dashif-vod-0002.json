@@ -24,5 +24,8 @@
             }
         }
     ],
+    "vr": {
+        "360": false
+    },
     "poster": "/images/bbb-bird1.jpg"
 }

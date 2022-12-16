@@ -32,5 +32,8 @@
             "kind": "metadata"
         }
     ],
+    "vr": {
+        "360": false
+    },
     "poster": "/images/bbb-splash.png"
 }
